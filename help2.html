@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Help</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      padding: 15px 30px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: gold;
+    }
+
+    .help {
+      margin-left: auto;
+    }
+
+    /* Help Section */
+    .help-section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .help-section h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .help-section p {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .faq-box {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .faq-box h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .faq-box p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Login</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Tasks</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    <ul>
+      <li class="help"><a href="#.html">Help</a></li>
+    </ul>
+  </nav>
+
+  <!-- Help Section -->
+  <section class="help-section">
+    <h1>Login Help</h1>
+    <p>Having trouble logging in? Here are some common problems and solutions.</p>
+
+    <div class="faq-box">
+      <h3>I forgot my password</h3>
+      <p>Use the <b>Forgot Password</b> link on the login page to reset your password. You’ll receive instructions in your email.</p>
+    </div>
+
+    <div class="faq-box">
+      <h3>My account doesn’t exist</h3>
+      <p>Make sure you registered an account before trying to log in. If not, click <b>Sign Up</b> to create a new account.</p>
+    </div>
+
+    <div class="faq-box">
+      <h3>I keep getting an “invalid credentials” error</h3>
+      <p>Double-check your email and password for typos. Remember, passwords are case-sensitive.</p>
+    </div>
+
+    <div class="faq-box">
+      <h3>The page just reloads without logging me in</h3>
+      <p>Clear your browser cache and cookies, then try again. If the problem continues, try using another browser.</p>
+    </div>
+
+    <div class="faq-box">
+      <h3>Still can’t log in?</h3>
+      <p>Contact our support team at <b>support@example.com</b> and include your username so we can help.</p>
+    </div>
+  </section>
+
+</body>
+</html>

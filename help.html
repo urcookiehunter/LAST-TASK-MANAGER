@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Help Section */
+    .help-section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .help-section h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .help-section p {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    /* FAQ/Help Boxes */
+    .faq-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .faq-box {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .faq-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .faq-box h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .faq-box p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+  <ul class="navbar">
+    <li><a href="Page.html">Home</a></li>
+    <li><a href="task.html">Tasks</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li class="help"><a href="help.html">Help</a></li>
+  </ul>
+</nav>
+
+  <!-- Help Section -->
+  <section class="help-section">
+    <h1>Help & Support</h1>
+    <p>Here you’ll find answers to common questions and guidance on how to use our Task Management System.</p>
+
+    <div class="faq-container">
+      <div class="faq-box">
+        <h3>How do I add a new task?</h3>
+        <p>Click on the <b>Add New Task</b> button from the dashboard. Fill in the task details and press save. The task will appear in your task list.</p>
+      </div>
+
+      <div class="faq-box">
+        <h3>How can I mark a task as completed?</h3>
+        <p>Open the <b>Tasks</b> page, then select the checkbox beside the task you want to mark as completed. The system will automatically update it.</p>
+      </div>
+
+      <div class="faq-box">
+        <h3>Why can’t I see my tasks?</h3>
+        <p>Make sure you are logged in. If you still can’t see your tasks, refresh the page or try logging out and back in again.</p>
+      </div>
+
+      <div class="faq-box">
+        <h3>How do I delete a task?</h3>
+        <p>On the <b>Tasks</b> page, click the delete button next to the task. A confirmation popup will appear before it is removed permanently.</p>
+      </div>
+
+      <div class="faq-box">
+        <h3>Who can I contact for help?</h3>
+        <p>If you experience technical issues, please email our support team at <b>support@example.com</b>.</p>
+      </div>
+
+      <div class="faq-box">
+        <h3>Where can I learn more?</h3>
+        <p>Check the <b>About Us</b> page to learn more about our team and project. Updates will also be posted there.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
